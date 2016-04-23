@@ -11,12 +11,6 @@ import {expect} from 'chai';
 import {Db} from 'mongodb';
 import * as mongoose from 'mongoose';
 
-interface IUser extends mongoose.Schema {
-    name: string;
-    userName: string;
-    password: string;
-}
-
 let Schema = mongoose.Schema,
     userSchema = new Schema({
         name: String,
