@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "emitDectoratorMetadata": true,
+        "target": "es5",
+        "module": "umd",
+        "sourceMap": true,
+        "watch": true
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}

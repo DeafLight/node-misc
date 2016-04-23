@@ -1,0 +1,3 @@
+interface IAppConfig {
+    dbConnString: string;
+}

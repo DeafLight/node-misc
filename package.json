@@ -1,0 +1,23 @@
+{
+  "name": "mongodb-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require ./test/testHelper.js --recursive",
+    "test:watch": "npm run test -- --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-immutable": "^1.5.4",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "async": "^2.0.0-rc.3",
+    "immutable": "^3.8.1",
+    "mongoose": "^4.4.12"
+  }
+}

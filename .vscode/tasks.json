@@ -1,0 +1,15 @@
+{
+    "version": "0.1.0",
+    "command": "tsc",
+    "isShellCommand": true,
+    "showOutput": "silent",
+    "args": [
+        "--module",
+        "umd",
+        "--target",
+        "ES5",
+        "--sourceMap",
+        "${file}"
+    ],
+    "problemMatcher": "$tsc"
+}
