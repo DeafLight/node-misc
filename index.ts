@@ -1,10 +1,10 @@
-///<reference path="typings/async/async.d.ts" />
-///<reference path="typings/chai/chai.d.ts" />
-///<reference path="typings/mocha/mocha.d.ts" />
-///<reference path="typings/mongodb/mongodb.d.ts" />
-///<reference path="typings/mongoose/mongoose.d.ts" />
+///<reference path="./typings/main/ambient/async/index.d.ts" />
+///<reference path="./typings/main/definitions/chai/index.d.ts" />
+///<reference path="./typings/main/ambient/mocha/index.d.ts" />
+///<reference path="./typings/main/ambient/mongodb/index.d.ts" />
+///<reference path="./typings/main/ambient/mongoose/index.d.ts" />
 
-"use strict"
+'use strict';
 
 import * as async from 'async';
 import {expect} from 'chai';

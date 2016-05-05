@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "chai": "registry:npm/chai#3.5.0+20160415060238",
+    "es6-promise": "registry:npm/es6-promise#3.0.0+20160211003958",
+    "mongodb": "registry:npm/mongodb#2.1.0+20160422172506"
+  },
+  "ambientDependencies": {
+    "async": "registry:dt/async#1.4.2+20160316155526",
+    "mocha": "registry:dt/mocha#2.2.5+20160317120654",
+    "mongodb": "registry:dt/mongodb#2.1.0+20160425144419",
+    "mongoose": "registry:dt/mongoose#3.8.5+20160316155526",
+    "node": "registry:dt/node#4.0.0+20160423143914"
+  }
+}

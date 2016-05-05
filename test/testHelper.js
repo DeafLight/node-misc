@@ -1,4 +1,4 @@
-///<reference path="../typings/chai/chai.d.ts" />
+///<reference path="../typings/main.d.ts" />
 ///<reference path="../src/typings/chai-immutable.d.ts" />
 (function (factory) {
     if (typeof module === 'object' && typeof module.exports === 'object') {

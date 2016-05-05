@@ -1,8 +1,4 @@
-///<reference path="../typings/async/async.d.ts" />
-///<reference path="../typings/chai/chai.d.ts" />
-///<reference path="../typings/mocha/mocha.d.ts" />
-///<reference path="../typings/mongodb/mongodb.d.ts" />
-///<reference path="../typings/mongoose/mongoose.d.ts" />
+///<reference path="../typings/main.d.ts" />
 
 'use strict';
 

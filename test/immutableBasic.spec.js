@@ -1,5 +1,4 @@
-///<reference path="../typings/chai/chai.d.ts" />
-///<reference path="../typings/mocha/mocha.d.ts" />
+///<reference path="../typings/main.d.ts" />
 (function (factory) {
     if (typeof module === 'object' && typeof module.exports === 'object') {
         var v = factory(require, exports); if (v !== undefined) module.exports = v;
@@ -8,7 +7,7 @@
         define(["require", "exports", 'chai', 'immutable'], factory);
     }
 })(function (require, exports) {
-    "use strict";
+    'use strict';
     var chai_1 = require('chai');
     var immutable_1 = require('immutable');
     describe('immutability basic tests', function () {

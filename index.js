@@ -1,8 +1,8 @@
-///<reference path="typings/async/async.d.ts" />
-///<reference path="typings/chai/chai.d.ts" />
-///<reference path="typings/mocha/mocha.d.ts" />
-///<reference path="typings/mongodb/mongodb.d.ts" />
-///<reference path="typings/mongoose/mongoose.d.ts" />
+///<reference path="./typings/main/ambient/async/index.d.ts" />
+///<reference path="./typings/main/definitions/chai/index.d.ts" />
+///<reference path="./typings/main/ambient/mocha/index.d.ts" />
+///<reference path="./typings/main/ambient/mongodb/index.d.ts" />
+///<reference path="./typings/main/ambient/mongoose/index.d.ts" />
 (function (factory) {
     if (typeof module === 'object' && typeof module.exports === 'object') {
         var v = factory(require, exports); if (v !== undefined) module.exports = v;
@@ -11,7 +11,7 @@
         define(["require", "exports", 'async', 'mongoose'], factory);
     }
 })(function (require, exports) {
-    "use strict";
+    'use strict';
     var async = require('async');
     var mongoose = require('mongoose');
     var Schema = mongoose.Schema, userSchema = new Schema({

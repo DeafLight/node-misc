@@ -1,5 +1,6 @@
-///<reference path="../typings/chai/chai.d.ts" />
-///<reference path="../typings/mocha/mocha.d.ts" />
+///<reference path="../typings/main.d.ts" />
+
+'use strict';
 
 import {expect} from 'chai';
 import {List, Map} from 'immutable';
