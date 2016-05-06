@@ -36,7 +36,7 @@ let Schema = mongoose.Schema,
     testDb = 'test' + Date.now(),
     testConnString = 'mongodb://localhost/' + testDb;
 
-describe('two phase commit basic test', () => {
+describe('two phase commit basic test using mongoose', () => {
     before(done => {
         mongoose.connect(testConnString).connection
             .once('connected', done);
