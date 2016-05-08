@@ -1,20 +1,31 @@
 'use strict';
 
+export enum Log2pcManagerStatus {
+    connecting = 1,
+    connected = 2,
+    disconnecting = 3,
+    disconnected = 4,
+    error = -1
+}
+
 export enum QueueStatus {
-    ready = 0,
-    processing = 1,
-    error = 2
+    ready = 1,
+    processing = 2,
+    error = -1
 }
 
 export enum TransactionStatus {
-    init = 0,
-    pending = 1,
-    applied = 2,
-    done = 3
+    init = 1,
+    pending = 2,
+    applied = 3,
+    done = 4,
+    cancelling = -2,
+    cancelled = -3,
+    undone = -4
 }
 
 export enum TaskType {
-    create = 0,
-    update = 1,
-    delete = 2
+    create = 1,
+    update = 2,
+    delete = 3
 }

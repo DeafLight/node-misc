@@ -13,6 +13,7 @@ export interface ILog2pcQueue {
 export interface ILog2pcTransaction {
     status: TransactionStatus;
     tasks: Array<ILog2pcTask>;
+    createdDate: Date;
 }
 
 export interface ILog2pcTask {
